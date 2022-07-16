@@ -1,0 +1,50 @@
+.sqlite-icon{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1 {
+    background-color: #181818;
+    border-radius: 15px;
+    text-align: center;
+    width: 18%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #d6b62d;
+    box-shadow: 0px 0px 12px 4px #bfbfbf;
+}
+
+.icon{
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-box{
+    padding: 2% 5%;
+}
+
+.skills-header{
+    color: #d6b62d;   
+}
+
+@media(max-width:767px){
+    .icon1 {
+        width: 45%;
+    }
+}

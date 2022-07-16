@@ -1,0 +1,57 @@
+
+.footer{
+    background-color: #292929;
+    color: #aaaaaa;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+.footer-conatct-item{
+    display: flex;
+    align-items: center;
+}
+
+.contact-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-icon{
+    color: #d6b62d;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+@media(max-width:767px){
+    .contact-items{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 5%;
+    }
+}
+.footer-header{
+    margin: 0px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.phone:hover{
+    color: #ffffff;
+}
+
+:hover.linkedin {
+    color: #ffffff;
+}

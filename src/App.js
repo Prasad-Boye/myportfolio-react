@@ -17,8 +17,7 @@ const App = () => (
     <Route exact path="/education" element={<Education/>} ></Route>
     <Route exact path="/skills" element={<Skills/>} ></Route>
     <Route exact path="/projects" element={<TimelineView/>}></Route>
-    <Route path="*" element={<Navigate to="/not-found" replace />}></Route>
-    <Route  path="/not-found"  element={<NotFound/>} ></Route>
+    <Route path="*" element={<Navigate to="/" replace />}></Route>
   </Routes>
   </BrowserRouter>
 )
